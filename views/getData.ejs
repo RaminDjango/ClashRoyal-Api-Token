@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/data.css">
+</head>
+<body>
+    <header>
+        <div class="backGround">
+            <div class="static">
+                <h1>Statistics</h1>
+            </div>
+            <div class="name">
+                <h1><%=data.name %> <span class="level"><%=data.expLevel %></span></h1>
+            </div>
+          
+        </div>
+    </header>
+    <main>
+        <div class="info">
+            <h1>Info About You</h1>
+            <div class="tagName">
+                <h2>Tag Name: <%=data.tag %></h2>
+            </div>
+            <div class="nameUser">
+                <h2><i class="fa-regular fa-user"></i> <%=data.name %></h2>
+            </div>
+            <div class="expLevel">
+                <h2>Exp Level <%=data.expLevel %></h2>
+            </div>
+            <div class="Trofi">
+                <h2>Trophies: <%=data.trophies %></h2>
+            </div>
+            <div class="Wins">
+                <h2>Wins: <%=data.wins %></h2>
+            </div>
+            <div class="Losses">
+                <h2>Losses: <%=data.losses %></h2>
+            </div>
+            <div class="battleCount">
+                <h2>Battle-Count: <%=data.battleCount %></h2>
+            </div>
+            <div class="ThreeCrownWins">
+                <h2>ThreeCrownWins: <%=data.threeCrownWins %></h2>
+            </div>
+            <div class="ChallengeCardsWon">
+                <h2>ChallengeCardsWon: <%=data.challengeCardsWon %></h2>
+            </div>
+            <div class="donations">
+                <h2>Donations: <%=data.donations %></h2>
+            </div>
+            <div class="warDayWins">
+                <h2>WarDayWins: <%=data.warDayWins %></h2>
+            </div>
+            <div class="clanCardsCollected">
+                <h2>ClanCardsCollected: <%=data.clanCardsCollected %></h2>
+            </div>
+            <div class="totalDonations">
+                <h2>TotalDonations: <%=data.totalDonations %></h2>
+            </div>
+            <div class="tournamentCardsWon">
+                <h2>TournamentCardsWon: <%=data.tournamentCardsWon %></h2>
+            </div>
+            <div class="tournamentBattleCount">
+                <h2>TournamentBattleCount: <%=data.tournamentBattleCount %></h2>
+            </div>
+            <div class="Arena">
+                <h2><%=data.arena.name %></h2>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/fa7463cb25.js" crossorigin="anonymous"></script>
+</body>
+</html>

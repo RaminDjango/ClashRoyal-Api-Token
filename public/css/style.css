@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/adiglyj5cgnz.png);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.415);
+}
+
+.royaleKing img {
+    position: absolute;
+    top: 35%;
+    left: -5%;
+    animation: moveUp 1s ease;
+}
+
+@keyframes moveUp {
+    from{top: 100%;}
+    to{top: 35%;}
+    
+}
+
+.dragonImage img {
+    position: absolute;
+    left: 77%;
+    animation: LeftUp 1s ease;
+
+}
+
+@keyframes LeftUp {
+    from{left: 100%;}
+    to{left: 77%;}
+}
+
+
+.form {
+    position: relative;
+    left: 456px;
+    top: 135px;
+    background-color: rgba(33, 32, 32, 0.79);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    animation: apper 2s ease-in;
+  
+    box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+}
+
+@keyframes apper{
+    from{top: 440px; opacity: 0;}
+    to{top: 135px;}
+
+}
+
+form input {
+    position: relative;
+    top: 70px;
+    left: 50px;
+    background-color: rgba(255, 255, 255, 0.897);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 400px;
+    font-family: sans-serif;
+
+}
+::placeholder {
+    color: black;
+    font-family: sans-serif;
+}
+
+form button {
+    position: relative;
+    top: 170px;
+    left: 140px;
+    padding: 20px;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.698);
+    border: 2px solid white;
+    transition: 1s ease;
+}
+
+form button:hover {
+    background-color: black;
+}
+
+
+@media all  and (max-width: 1193px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .form {
+        position: relative;
+        left: 316px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+    
+}
+
+@media all  and (max-width: 923px) {
+
+    .form {
+        position: relative;
+        left: 206px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+    .royaleKing img {
+        position: absolute;
+        top: 47%;
+        left: -5%;
+        display: none;
+        animation: moveUp 1s ease;
+    }
+    
+}
+
+
+@media all  and (max-width: 776px) {
+
+    .form {
+        position: relative;
+        left: 106px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+    
+}
+
+@media all  and (max-width: 653px) {
+    .form {
+        position: relative;
+        left: 76px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+    
+}
+
+@media all  and (max-width: 601px) {
+    .form {
+        position: relative;
+        left: 96px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 370px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+
+    form input {
+        position: relative;
+        top: 70px;
+        left: 10px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width: 350px;
+        font-family: sans-serif;
+    
+    }
+    form button {
+        position: relative;
+        top: 170px;
+        left: 90px;
+        padding: 20px;
+        width: 200px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.698);
+        border: 2px solid white;
+        transition: 1s ease;
+    }
+    
+}
+
+
+@media all  and (max-width: 479px) {
+    .form {
+        position: relative;
+        left: 26px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 370px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+
+    form input {
+        position: relative;
+        top: 70px;
+        left: 10px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width: 350px;
+        font-family: sans-serif;
+    
+    }
+    form button {
+        position: relative;
+        top: 170px;
+        left: 90px;
+        padding: 20px;
+        width: 200px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.698);
+        border: 2px solid white;
+        transition: 1s ease;
+    }
+    
+}
+
+
+@media all  and (max-width: 404px) {
+    .form {
+        position: relative;
+        left: 17px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 370px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+
+    form input {
+        position: relative;
+        top: 70px;
+        left: 10px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width: 350px;
+        font-family: sans-serif;
+    
+    }
+    form button {
+        position: relative;
+        top: 170px;
+        left: 90px;
+        padding: 20px;
+        width: 200px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.698);
+        border: 2px solid white;
+        transition: 1s ease;
+    }
+    
+}
+
+@media all  and (max-width: 396px) {
+    .form {
+        position: relative;
+        left: 16px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 350px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+
+    form input {
+        position: relative;
+        top: 70px;
+        left: 3px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width: 345px;
+        font-family: sans-serif;
+    
+    }
+    form button {
+        position: relative;
+        top: 170px;
+        left: 74px;
+        padding: 20px;
+        width: 200px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.698);
+        border: 2px solid white;
+        transition: 1s ease;
+    }
+    
+}
+
+@media all  and (max-width: 341px) {
+    .form {
+        position: relative;
+        left: -10px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 340px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+
+    form input {
+        position: relative;
+        top: 70px;
+        left: 10px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width: 350px;
+        font-family: sans-serif;
+    
+    }
+    form button {
+        position: relative;
+        top: 170px;
+        left: 90px;
+        padding: 20px;
+        width: 200px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.698);
+        border: 2px solid white;
+        transition: 1s ease;
+    }
+    
+}
+
+@media all  and (max-width: 318px) {
+    .form {
+        position: relative;
+        left: 12px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 300px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+
+    form input {
+        position: relative;
+        top: 70px;
+        left: 2px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width:296px;
+        font-family: sans-serif;
+    
+    }
+    form button {
+        position: relative;
+        top: 170px;
+        left: 50px;
+        padding: 20px;
+        width: 200px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.698);
+        border: 2px solid white;
+        transition: 1s ease;
+    }
+    
+}
+
+
+@media all  and (max-width: 281px) {
+    .form {
+        position: relative;
+        left: 5px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 270px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+
+    form input {
+        position: relative;
+        top: 70px;
+        left: 1px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width:268px;
+        font-family: sans-serif;
+    
+    }
+    form button {
+        position: relative;
+        top: 170px;
+        left: 35px;
+        padding: 20px;
+        width: 200px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.698);
+        border: 2px solid white;
+        transition: 1s ease;
+    }
+    
+}
+
+@media all  and (max-width: 245px) {
+    .form {
+        position: relative;
+        left: 5px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 235px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+
+    form input {
+        position: relative;
+        top: 70px;
+        left: 1px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width:234px;
+        font-family: sans-serif;
+    
+    }
+    form button {
+        position: relative;
+        top: 170px;
+        left: 15px;
+        padding: 20px;
+        width: 200px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.698);
+        border: 2px solid white;
+        transition: 1s ease;
+    }
+    
+}
+
+@media all  and (max-width: 361px) {
+    .form {
+        position: relative;
+        left: 13px;
+        top: 135px;
+        background-color: rgba(33, 32, 32, 0.79);
+        width: 335px;
+        height: 500px;
+        border-radius: 10px;
+        animation: apper 2s ease-in;
+      
+        box-shadow: 0px 0px 20px 23px rgba(0, 0, 0, 0.608);
+    }
+
+    form input {
+        position: relative;
+        top: 70px;
+        left: 1px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width:332px;
+        font-family: sans-serif;
+    
+    }
+    form button {
+        position: relative;
+        top: 170px;
+        left: 65px;
+        padding: 20px;
+        width: 200px;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.698);
+        border: 2px solid white;
+        transition: 1s ease;
+    }
+    
+}

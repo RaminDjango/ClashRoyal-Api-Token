@@ -1,0 +1,1081 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    background-color: black;
+    height: 160px;
+}
+
+
+.name h1{
+    position: relative;
+    top: 70px;
+    left: 630px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.level {
+    position: absolute;
+    left: 10%;
+    top: -20px;
+    background-color: rgb(0, 81, 255);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.static h1 {
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+
+.info h1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+
+.tagName h2 {
+    position: absolute;
+    top: 46%;
+    left: 19%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nameUser h2 {
+    position: absolute;
+    top: 56%;
+    left: 19%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+
+}
+
+
+.expLevel h2 {
+    position: absolute;
+    top: 66%;
+    left: 19%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.Trofi h2 {
+    position: absolute;
+    top: 76%;
+    left: 19%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.Wins h2 {
+    position: absolute;
+    top: 86%;
+    left: 19%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.Losses h2 {
+    position: absolute;
+    top: 96%;
+    left: 19%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.battleCount h2 {
+    position: absolute;
+    top: 56%;
+    left: 40%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.ThreeCrownWins h2 {
+    position: absolute;
+    top: 66%;
+    left: 40%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.ChallengeCardsWon h2 {
+    position: absolute;
+    top: 76%;
+    left: 40%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.donations h2 {
+    position: absolute;
+    top: 86%;
+    left: 40%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+
+}
+
+.warDayWins h2 {
+    position: absolute;
+    top: 96%;
+    left: 40%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.clanCardsCollected h2 {
+    position: absolute;
+    top: 56%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.totalDonations h2 {
+    position: absolute;
+    top: 66%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.tournamentCardsWon h2 {
+    position: absolute;
+    top: 76%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.tournamentBattleCount h2 {
+    position: absolute;
+    top: 86%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.Arena h2 {
+    position: absolute;
+    top: 96%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+@media all and (max-width: 1224px){
+    
+    
+.name h1{
+    position: relative;
+    top: 70px;
+    left: 430px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.level {
+    position: absolute;
+    left: 14%;
+    top: -20px;
+    background-color: rgb(0, 81, 255);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.static h1 {
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+
+.info h1 {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+
+.tagName h2 {
+    position: absolute;
+    top: 46%;
+    left: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nameUser h2 {
+    position: absolute;
+    top: 56%;
+    left: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+
+}
+
+
+.expLevel h2 {
+    position: absolute;
+    top: 66%;
+    left: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.Trofi h2 {
+    position: absolute;
+    top: 76%;
+    left: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.Wins h2 {
+    position: absolute;
+    top: 86%;
+    left: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.Losses h2 {
+    position: absolute;
+    top: 96%;
+    left: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.battleCount h2 {
+    position: absolute;
+    top: 56%;
+    left: 35%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.ThreeCrownWins h2 {
+    position: absolute;
+    top: 66%;
+    left: 35%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.ChallengeCardsWon h2 {
+    position: absolute;
+    top: 76%;
+    left: 35%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.donations h2 {
+    position: absolute;
+    top: 86%;
+    left: 35%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+
+}
+
+.warDayWins h2 {
+    position: absolute;
+    top: 96%;
+    left: 35%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.clanCardsCollected h2 {
+    position: absolute;
+    top: 56%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.totalDonations h2 {
+    position: absolute;
+    top: 66%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.tournamentCardsWon h2 {
+    position: absolute;
+    top: 76%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.tournamentBattleCount h2 {
+    position: absolute;
+    top: 86%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.Arena h2 {
+    position: absolute;
+    top: 96%;
+    left: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+
+}
+
+
+@media all  and (max-width: 1104px) {
+  
+    .name h1{
+        position: relative;
+        top: 70px;
+        left: 430px;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    
+    }
+    
+    .level {
+        position: absolute;
+        left: 14%;
+        top: -20px;
+        background-color: rgb(0, 81, 255);
+        padding: 5px;
+        border-radius: 20px;
+    }
+    
+    .static h1 {
+        position: absolute;
+        top: 9%;
+        left: 10%;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    
+    
+    
+    .info h1 {
+        position: absolute;
+        top: 30%;
+        left: 38%;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        font-weight: bold;
+    
+    }
+    
+    .tagName h2 {
+        position: absolute;
+        top: 46%;
+        left: 4%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .nameUser h2 {
+        position: absolute;
+        top: 56%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    
+    }
+    
+    
+    .expLevel h2 {
+        position: absolute;
+        top: 66%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    .Trofi h2 {
+        position: absolute;
+        top: 76%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .Wins h2 {
+        position: absolute;
+        top: 86%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .Losses h2 {
+        position: absolute;
+        top: 96%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .battleCount h2 {
+        position: absolute;
+        top: 106%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .ThreeCrownWins h2 {
+        position: absolute;
+        top: 117%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .ChallengeCardsWon h2 {
+        position: absolute;
+        top: 127%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .donations h2 {
+        position: absolute;
+        top: 137%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    
+    }
+    
+    .warDayWins h2 {
+        position: absolute;
+        top: 147%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .clanCardsCollected h2 {
+        position: absolute;
+        top: 157%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .totalDonations h2 {
+        position: absolute;
+        top: 167%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .tournamentCardsWon h2 {
+        position: absolute;
+        top: 177%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .tournamentBattleCount h2 {
+        position: absolute;
+        top: 187%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .Arena h2 {
+        position: absolute;
+        top: 197%;
+        left: 44%;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+
+}
+
+
+
+
+
+
+@media all and (max-width: 802px) {
+
+
+        .name h1{
+            position: relative;
+            top: 70px;
+            left: 330px;
+            color: white;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+        
+        }
+        
+        .level {
+            position: absolute;
+            left: 17%;
+            top: -20px;
+            background-color: rgb(0, 81, 255);
+            padding: 5px;
+            border-radius: 20px;
+        }
+        
+}
+
+
+
+
+@media all and (max-width: 694px) {
+
+        .name h1{
+            position: relative;
+            top: 70px;
+            left: 300px;
+            color: white;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+        
+        }
+        
+        .level {
+            position: absolute;
+            left: 19%;
+            top: -20px;
+            background-color: rgb(0, 81, 255);
+            padding: 5px;
+            border-radius: 20px;
+        }
+        
+}
+
+
+
+
+
+@media all and (max-width: 659px) {
+
+        .name h1{
+            position: relative;
+            top: 70px;
+            left: 270px;
+            color: white;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+        
+        }
+        
+        .level {
+            position: absolute;
+            left: 21%;
+            top: -20px;
+            background-color: rgb(0, 81, 255);
+            padding: 5px;
+            border-radius: 20px;
+        }
+        
+}
+
+
+
+
+
+
+@media all and (max-width: 598px) {
+  
+
+        .name h1{
+            position: relative;
+            top: 70px;
+            left: 270px;
+            color: white;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+        
+        }
+        
+        .level {
+            position: absolute;
+            left: 27%;
+            top: -20px;
+            background-color: rgb(0, 81, 255);
+            padding: 5px;
+            border-radius: 20px;
+        }
+        
+}
+
+
+
+
+
+@media all and (max-width: 474px) {
+ 
+    .static h1 {
+        position: absolute;
+        top: 9%;
+        left: 3%;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+       
+    .info h1 {
+        position: absolute;
+        top: 30%;
+        left: 24%;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        font-weight: bold;
+    
+    }
+
+        .name h1{
+            position: relative;
+            top: 70px;
+            left: 204px;
+            color: white;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+        
+        }
+        
+        .level {
+            position: absolute;
+            left: 36%;
+            top: -20px;
+            background-color: rgb(0, 81, 255);
+            padding: 5px;
+            border-radius: 20px;
+        }
+        
+}
+
+
+   
+@media all  and (max-width: 380px) {
+  
+    .name h1{
+        position: relative;
+        top: 20px;
+        left: 150px;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    
+    }
+    
+    .level {
+        position: absolute;
+        left: 11%;
+        top: 40px;
+        background-color: rgb(0, 81, 255);
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .static h1 {
+        position: absolute;
+        top: 16%;
+        left: 37%;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+
+  
+   
+    
+  
+    
+    
+    
+    .info h1 {
+        position: absolute;
+        top: 30%;
+        left: 14%;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        font-weight: bold;
+    
+    }
+    
+    .tagName h2 {
+        position: absolute;
+        top: 46%;
+        left: 1%;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .nameUser h2 {
+        position: absolute;
+        top: 56%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    
+    }
+    
+    
+    .expLevel h2 {
+        position: absolute;
+        top: 66%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    .Trofi h2 {
+        position: absolute;
+        top: 76%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .Wins h2 {
+        position: absolute;
+        top: 86%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .Losses h2 {
+        position: absolute;
+        top: 96%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .battleCount h2 {
+        position: absolute;
+        top: 106%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .ThreeCrownWins h2 {
+        position: absolute;
+        top: 117%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .ChallengeCardsWon h2 {
+        position: absolute;
+        top: 127%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .donations h2 {
+        position: absolute;
+        top: 137%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    
+    }
+    
+    .warDayWins h2 {
+        position: absolute;
+        top: 147%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .clanCardsCollected h2 {
+        position: absolute;
+        top: 157%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .totalDonations h2 {
+        position: absolute;
+        top: 167%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .tournamentCardsWon h2 {
+        position: absolute;
+        top: 177%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .tournamentBattleCount h2 {
+        position: absolute;
+        top: 187%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+    
+    .Arena h2 {
+        position: absolute;
+        top: 197%;
+        left: 10%;
+        font-size: 19px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    
+    }
+}
+
+
+@media all  and (max-width: 329px) {
+
+    .name h1{
+        position: relative;
+        top: 20px;
+        left: 110px;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    
+    }
+    
+    .level {
+        position: absolute;
+        left: 13%;
+        top: 42px;
+        background-color: rgb(0, 81, 255);
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .static h1 {
+        position: absolute;
+        top: 16%;
+        left: 30%;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+}
+
+
+@media all  and (max-width: 360px) {
+    body {
+   
+
+    
+        overflow-y: scroll;
+    }
+    header {
+        
+        background-color: rgb(0, 0, 0);
+        height: 160px;
+        
+    }
+    .name h1{
+        position: relative;
+        top: 20px;
+        left: 121px;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    
+    }
+    
+    .level {
+        position: absolute;
+        left: 10%;
+        top: 39px;
+        background-color: rgb(0, 81, 255);
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .static h1 {
+        position: absolute;
+        top: 16%;
+        left: 30%;
+        color: white;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+}
