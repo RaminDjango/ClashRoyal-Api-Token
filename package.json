@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "e2e": "cypress open"
+    "e2e": "cypress open",
+    "start":"node index.js",
+   
   },
   "keywords": [],
   "author": "",
